@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Call-Plug",
+      "identifier": "sketchxjson.my-command-identifier",
+      "script": "my-command.js"
+    }
+  ],
+  "menu": {
+    "title": "sketchxjson",
+    "items": [
+      "sketchxjson.my-command-identifier"
+    ]
+  },
+  "version": "0.1.0",
+  "description": "",
+  "name": "sketchxjson",
+  "identifier": "sketchxjson",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Omari Mendoza",
+  "authorEmail": "omari.mendoza@gmail.com"
+}
